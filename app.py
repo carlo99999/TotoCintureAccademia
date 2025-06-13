@@ -41,7 +41,7 @@ df = df.loc[df["Attivo"]=="SI"].drop(columns=["Attivo"])
 
 # Sidebar per login
 st.sidebar.title("Login")
-selected_username = st.sidebar.selectbox("Seleziona il tuo nome", ["Seleziona...", "Carlo", "Nini (amica di GU)", "Jack", "Mariadna", "Frengo"])
+selected_username = st.sidebar.selectbox("Seleziona il tuo nome", ["Seleziona...", "Carlo", "Nini (amica di GU)", "Jack", "Mariadna", "Frengo","Matteozzo"])
 
 if st.sidebar.button("Accedi"):
     if selected_username != "Seleziona...":
